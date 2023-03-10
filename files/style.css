@@ -1,0 +1,136 @@
+body{
+	font-size:14px;
+	line-height:17px;
+	color:#111111;
+	font-family:'Arial';
+}
+
+h1{
+	font-size:20px;
+	font-weight:900px;
+	line-height:40px;
+	background-position:center;
+}
+
+#myNav ul{
+	list-style:none;
+	margin:20px;
+	padding:30px;
+}
+#myNav ul li{
+		float:down;
+		
+}
+#ContentMe{
+	position:relative;
+	left:150px;
+	top:40px;
+	
+	border:1px solid black;
+	width:30px;
+	height:30px;
+	background-color:red;
+	
+	
+}
+
+
+#myNav ul li a:hover{
+	text-align:center;
+	display:inlinr-block;
+	background-color:#ddd;
+	color:#000;
+	width:100px;
+	position:reletive;
+	text-decoration:none;
+}
+
+#myNav ul li a:hover, .myBox:hover{
+	background-color:#000;
+	color:#fff;
+}
+
+.myWorld:first-child{
+	
+	display:block;
+	background-color:yellow;
+	
+}
+.myBox, li{
+			background-color:green;
+}
+
+.myBox, li {
+		display:inline-block;
+		background-color:#eee;
+		margin:20px;
+		border-radius:3em 42px;
+		padding-bottom:10px;
+		border:1px solid blue;
+		padding-top:20px;
+		padding-left:10px;
+		padding-right:15px;
+		
+		padding:10px 15px 5px 10px;
+		
+		
+		border-width:1px;
+	    
+		border-style:solid;
+		background-color:10px  blue solid;
+		
+}
+
+
+.myheader
+{
+	
+	color:red;
+	text-align: center;
+	background-color:red;
+	background-image: url("https://picsum.photos/200/300");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:200px;
+	}
+#home{
+	 color:red;
+	color: rgb(93,163,143);
+	text-align: center;
+	background-color:#FFFFF;
+	background-image: url("https://loremflickr.com/640/360");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:200px;
+}
+h1{
+	background-color:#ffffff;
+	background-image:url("https://picsum.photos/200/300");
+	text-align: center;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:200px;
+	
+ }
+
+}
+th,td{
+	 padding:10px;
+	 min-height:100;
+}
+tr:nth-child(odd){
+	background-color:#000000;
+	color:yellow;
+	
+}
+
+div{
+
+}
+
+span{
+
+}
